@@ -49,7 +49,7 @@ export default async function RootLayout({
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <meta name="apple-mobile-web-app-title" content="purrzzatto" />
+        <meta name="apple-mobile-web-app-title" content="Your Portfolio" />
         <link rel="manifest" href="/site.webmanifest" />
 
         <script

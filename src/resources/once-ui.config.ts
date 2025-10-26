@@ -20,7 +20,7 @@ const routes: RoutesConfig = {
   "/": true,
   "/about": true,
   "/work": true,
-  "/blog": false,
+  "/blog": true,
   "/gallery": true,
 };
 
@@ -141,8 +141,7 @@ const effects: EffectsConfig = {
 };
 
 const mailchimp: MailchimpConfig = {
-  action:
-    "https://purrzzatto.us7.list-manage.com/subscribe/post?u=3b790213877adf31902489e35&amp;id=0fef820ab8&amp;f_id=006dade0f0",
+  action: "https://your-mailchimp-link",
   effects: {
     mask: {
       cursor: true,

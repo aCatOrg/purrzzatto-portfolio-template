@@ -151,7 +151,7 @@ export const Header = () => {
                 <>
                   <Row s={{ hide: true }}>
                     <ToggleButton
-                      prefixIcon="cat"
+                      prefixIcon="gallery"
                       href="/gallery"
                       label={gallery.label}
                       selected={pathname.startsWith("/gallery")}

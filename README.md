@@ -1,8 +1,8 @@
 # Purrzzatto Portfolio
 
-This repository contains the source code for my personal portfolio website, built with Next.js and inspired by the **Once UI Magic Portfolio** template. Here, I showcase my work, projects, and thoughts.
+This repository contains the source code for my personal portfolio website (modified without proprietary stuff), built with Next.js and inspired by the **Once UI Magic Portfolio** template. I use it to showcase my work, projects, and thoughts.
 
-🌐 **Live Demo**: [purrzzatto.com](https://www.purrzzatto.com/)
+🌐 **Live website**: [purrzzatto.com](https://www.purrzzatto.com/)
 
 ## ✨ Key Improvements
 
@@ -11,9 +11,10 @@ Building on the original Magic Portfolio template, I've added several enhancemen
 - **Subscribe Button**: Fixed unresponsive button; now properly handles email submission and validation.
 - **Type-Safe Debounce**: Replaced incorrect debounce typing for improved TypeScript reliability.
 - **Gallery**: Dynamic image loading from `public/images/gallery` via API route; supports orientation-based naming for optimal aspect ratios.
-- **Component Flexibility**: Enhanced "Work", Carousel, and Media components to accept varied child structures; added accordions in the About section.
-- **MDX Code Blocks**: Improved handling of language and label syntax (e.g., `~~~<language>:<label>?`).
-- **Sitemap**: Conditionally includes blogs/projects only when routes are enabled in the config.
+- **Component Flexibility**: Enhanced Work section, Carousel, and Media components to accept varied child structures; added accordions in the About section.
+- **MDX Code Blocks**: Improved handling of language and label syntax for ease of use (e.g., `~~~<language>:<label>?`).
+- **Sitemap**: Modified so it conditionally includes blogs/projects only when routes are enabled in the config.
+- **Favicon**: Added comprehensive favicon markup to the site head, supporting multiple formats (ICO, SVG, PNG). For generating custom favicons, use https://realfavicongenerator.net/
 
 If you find these improvements useful and use this as a starting point for your own portfolio, please consider leaving a star! ⭐
 
